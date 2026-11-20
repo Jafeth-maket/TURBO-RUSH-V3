@@ -5,12 +5,12 @@
 //  Cambia los números, guarda, y listo.
 // ============================================================
 const CONFIG = {
-  nombreJuego: "Turbo Rush",
+  nombreJuego: "Turbo Rush v3",
   saveKey: "turborush_save_v1",   // si lo cambias, el progreso guardado se reinicia
 
   // ---------- DINERO ----------
-  dineroInicial: 0,        // dinero con el que empieza una partida nueva
-  valorMoneda: 10,         // dinero por cada moneda recogida
+  dineroInicial: 9999,        // dinero con el que empieza una partida nueva
+  valorMoneda: 100,         // dinero por cada moneda recogida
   dineroPorBloque: 5,      // dinero extra por cada 100 m recorridos
 
   // ---------- CARRERA ----------
